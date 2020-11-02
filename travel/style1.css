@@ -1,0 +1,97 @@
+@media only screen and (max-width: 770px) 
+{
+  nav{
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px)
+{
+    nav li a{
+      text-decoration: none;
+      color: #F63131
+    }
+    nav li {
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+    border: 1px solid white;
+    margin-left: 0.25%;
+}
+nav div{
+    display: inline-block;
+}
+nav li{
+    background-color:#2CF595  /*rgba(156, 252, 231,0.8)*/;
+    text-align: center;
+    display: inline-block;
+    width: 16.5%;
+    border: 1px solid white;
+    height:50px;
+    line-height: 50px;
+    font-size: 120%;
+    color: #F63131;
+} 
+nav li:hover{
+    background-color:rgba(156, 252, 231,0.8) /*#0C9CD0*/;
+    color: #900C3F;
+}
+nav a:hover
+{
+    color:white;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  /*padding: 15px 32px;*/
+  text-align: center;
+  text-decoration: none;
+  float: left;
+  display: inline-block;
+  font-size: 120%;
+  cursor: pointer;*/
+}
+}
+#search-text-input{
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:17px;
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+    width:183px; 
+}
+  
+#button-holder{
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    float:left;
+    height:27px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:50px;
+}
+  
+#button-holder img{
+    margin:4px;
+    width:20px; 
+}
+/*Styling the go back button*/
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}

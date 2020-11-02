@@ -1,0 +1,123 @@
+
+header img{
+	width: 100vw;
+}
+.exp_left{
+	text-align: center;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+.exp_center{
+	text-align: center;
+	display:block;
+	margin: auto;
+	margin-top: 5%;
+}
+.exp_right{
+	text-align: center;
+display:block;
+	margin: auto;
+	margin-top: 5%;
+}
+.exp_left:hover,.exp_center:hover,.exp_right:hover{
+	box-shadow: 3px 3px rgb(241, 231, 231);
+}
+@media only screen and (min-width: 770px)
+{
+	.exp_left{
+	display: inline-block;
+	
+	margin-top: 3%;
+	margin-left: 4%;
+	width: 25%;
+
+}
+.exp_center{
+	display: inline-block;
+	
+	margin-top: 3%;
+	margin-left: 3%;
+	width: 25%;
+}
+.exp_right{
+	display: inline-block;
+	
+	margin-top: 3%;
+	margin-left: 3%;
+	width: 25%;
+}
+.exp_left:hover,.exp_center:hover,.exp_right:hover{
+	box-shadow: 3px 3px rgb(241, 231, 231);
+}
+}
+.key_info{
+	text-align: center;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Add a hover effect  */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/*Instagram */
+.fa-instagram{
+	background:#fb3958 ;
+	color:white;
+}
+/*Linked in*/
+.fa-linkedin{
+	background:#0e76a8;
+	color: white;
+} 
+/*E-Mail*/
+.fa-envelope{
+	background:red;
+	color:white;
+}
+/*Center Align the icons*/
+footer{
+	text-align: center;
+	padding: 16px;
+	margin-bottom: 0vh;
+	/*background-color: rgba(156, 252, 231,0.8);*/
+	
+}
+.font  {
+	align-content: center;
+	display: inline-block;
+	padding: 2%;
+  font-size: 110%;
+  margin-top: 4%;
+  margin-left: 3%;
+  text-align: center;
+  border: 2px solid #F6EAE6;
+  text-decoration: none;
+}
+.fa-ambulance,.fa-drivers-license-o,.fa-cloud-sun,.fa-language{
+	background-color: #FED5B9 ;
+	color: black;
+}
+.fa-exclamation-triangle,.fa-phone-volume,.fa-mobile-phone,.fa-external-link{
+	background-color: #8C2200;
+	color: white; 
+}
+@media only screen and (max-width: 770px;)
+{
+	.font i {
+		display: block;
+	}
+}

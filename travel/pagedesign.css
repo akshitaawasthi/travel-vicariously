@@ -1,0 +1,41 @@
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Add a hover effect  */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+/*Instagram */
+.fa-instagram{
+	background:#fb3958 ;
+	color:white;
+}
+/*Linked in*/
+.fa-linkedin{
+	background:#0e76a8;
+	color: white;
+} 
+/*E-Mail*/
+.fa-envelope{
+	background:red;
+	color:white;
+}
+/*Center Align the icons*/
+footer{
+	text-align: center;
+	padding: 16px;
+	margin-bottom: 0vh;
+	/*background-color: rgba(156, 252, 231,0.8);*/
+	clear: both;
+}
